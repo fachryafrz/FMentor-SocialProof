@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="./styles/input.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-league-spartan tracking-tighter">
+    <main
+      class="py-20 md:py-0 flex flex-col min-h-screen justify-center gap-8 lg:gap-12 mx-auto max-w-4xl xl:max-w-[1050px]"
+    >
+      <div
+        class="flex flex-col md:flex-row gap-8 md:gap-0 md:items-center md:px-4 lg:px-0"
+      >
+        <div class="md:w-[50%]">
+          <h1
+            class="font-bold text-3xl md:text-5xl text-primary-dark-magenta text-center md:text-left leading-6 md:leading-10 mx-auto md:mx-0 max-w-[200px] md:max-w-[300px]"
+          >
+            10,000+ of our users love our products
+          </h1>
+          <p
+            class="mt-4 text-center md:text-left text-neutral-light-grayish-magenta font-medium mx-auto md:mx-0 max-w-[250px] md:max-w-[350px] leading-5"
+          >
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-4 mx-auto md:mx-0 w-full max-w-xs md:max-w-[50%]"
+        >
+          <div class="rating-pill lg:self-start">
+            <span class="flex gap-2">
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+            </span>
+            Rated 5 Stars in Reviews
+          </div>
+          <div class="rating-pill lg:self-center">
+            <span class="flex gap-2">
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+            </span>
+            Rated 5 Stars in Report Guru
+          </div>
+          <div class="rating-pill lg:self-end">
+            <span class="flex gap-2">
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+              <img src="./images/icon-star.svg" alt="Star Rating" />
+            </span>
+            Rated 5 Stars in BestTech
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-auto w-full max-w-xs md:max-w-none md:px-4 lg:px-0 flex flex-col md:flex-row gap-4 text-white"
+      >
+        <article class="feedback-card">
+          <div class="feedback-header">
+            <img
+              src="./images/image-colton.jpg"
+              alt="Colton Smith"
+              class="rounded-full w-10"
+            />
+            <div class="leading-5 tracking-normal">
+              <h2 class="font-bold">Colton Smith</h2>
+              <span class="text-primary-soft-pink">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="tracking-normal">
+            <q>
+              We needed the same printed design as the one we had ordered a week
+              prior. Not only did they find the original order, but we also
+              received it in time. Excellent!
+            </q>
+          </p>
+        </article>
+        <article class="feedback-card md:mt-4">
+          <div class="feedback-header">
+            <img
+              src="./images/image-irene.jpg"
+              alt="Irene Roberts"
+              class="rounded-full w-10"
+            />
+            <div class="leading-5 tracking-normal">
+              <h2 class="font-bold">Irene Roberts</h2>
+              <span class="text-primary-soft-pink">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="tracking-normal">
+            <q>
+              Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery.
+            </q>
+          </p>
+        </article>
+        <article class="feedback-card md:mt-8">
+          <div class="feedback-header">
+            <img
+              src="./images/image-anne.jpg"
+              alt="Anne Wallace"
+              class="rounded-full w-10"
+            />
+            <div class="leading-5 tracking-normal">
+              <h2 class="font-bold">Anne Wallace</h2>
+              <span class="text-primary-soft-pink">Verified Buyer</span>
+            </div>
+          </div>
+          <p class="tracking-normal">
+            <q>
+              Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!
+            </q>
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <div class="sr-only">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/fachryafrz" target="_blank"
+        >fachryafrz</a
+      >.
+    </div>
+  </body>
+</html>

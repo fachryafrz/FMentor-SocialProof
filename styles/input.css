@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  img {
+    @apply pointer-events-none;
+  }
+
+  .rating-pill {
+    @apply flex flex-col md:flex-row items-center gap-2 md:gap-6 p-4 md:px-8 bg-neutral-dark-grayish-magenta rounded-lg font-bold text-primary-dark-magenta tracking-tighter text-center md:text-left;
+  }
+
+  .feedback-card {
+    @apply rounded-lg bg-primary-dark-magenta p-8 md:h-fit;
+  }
+
+  .feedback-header {
+    @apply flex gap-6 mb-4 items-center;
+  }
+}
